@@ -6,3 +6,4 @@ torch
 wordcloud
 matplotlib
 PyMuPDF
+python-docx
