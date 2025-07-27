@@ -1,0 +1,30 @@
+Software Testing Strategy
+
+Unit Testing:
+Unit testing is the process of testing individual modules, classes, or functions of a software application in isolation. 
+It is performed by developers during the development phase. The purpose is to ensure that each unit works as intended, 
+handles input and output correctly, and processes internal logic without errors. It helps detect bugs early and makes debugging easier.
+Important aspects tested in unit testing include input/output flow, internal logic, data structures, control flow paths, 
+boundary values, and error handling. Example: Testing an add(a, b) function to ensure it returns correct results before integration.
+
+Integration Testing:
+Integration testing checks if multiple modules, when combined, work together properly and share data correctly. 
+After individual units are tested, these modules are integrated and tested as a group. Stubs and drivers are often used here:
+a Stub simulates a called module that is not yet ready, while a Driver simulates a calling module. Types of integration testing
+include Big Bang, Top-down, Bottom-up, and Sandwich. Example: Testing that a checkout module sends correct data to a payment module.
+
+Validation Testing:
+Validation testing verifies whether the software meets business requirements and user expectations. 
+It is usually performed by the QA team or the client. For example, if a requirement states that a user can register with 
+email and password, validation testing ensures this functionality works correctly.
+
+System Testing:
+System testing checks the complete system as a whole after all modules are integrated. 
+It ensures the application works correctly from start to finish, covering all functionalities and workflows.
+Example: Testing a full flight booking system from login to payment to logout.
+
+Regression Testing:
+Regression testing is performed after modifications like bug fixes or feature updates. 
+Its goal is to ensure that new changes do not break existing functionality. 
+Regression testing re-runs previous test cases to confirm that everything still works. 
+It is essential to maintain software stability as the system evolves.

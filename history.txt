@@ -1,0 +1,11 @@
+Q: When should regression testing be performed?
+- Regression Testing is the process of retesting a software application after changes (like bug fixes or feature updates) to ensure that existing functionalities still work correctly
+- Unit Testing is performed by developers during the development phase
+- System Testing is a level of software testing where individual modules are combined and tested as a group to check if they work together
+
+Q: What is unit testing?
+- Unit Testing is the process of testing individual modules, classes, or functions of a software application in isolation
+- The purpose is to ensure that each unit works as intended, handles input and output correctly, and processes internal logic without errors
+- It helps detect bugs early and makes debugging easier
+- Validation Testing verifies whether the software meets business requirements and user expectations
+
